@@ -18,6 +18,7 @@ References:
 Noah Philip 
 
 Yu Cao
+<<<<<<< HEAD
 Personal Pain Points:
 1. Cannot find the right file or right data among thousands of data file （including code scripts(python), pictures/figures, pdfs, powerpoint and raw files in different directories)
 	Temporary solution: Notion (paid), file directory
@@ -120,3 +121,6 @@ Any team producing reports, theses, procedures, logbooks, and papers at scale.
 
 - We see all of the ""
 - We need some way of verifying 
+=======
+- We need some way of verifying local work done is correct/80% of scientific data is lost and useless.
+>>>>>>> f8123669467c77d83da9656000512219bcda4289
