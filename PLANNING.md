@@ -18,5 +18,4 @@ References:
 Noah Philip 
 
 Yu Cao
-- We see all of the ""
-- We need some way of verifying 
+- We need some way of verifying local work done is correct/80% of scientific data is lost and useless.
