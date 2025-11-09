@@ -60,7 +60,10 @@ Physics Inspired World Models for Smart Security Applications.
 
 
 
+---
+
 Technologies We Used:
+
   Frontend & UI
   - React 18 - Modern component-based UI framework
   - TypeScript - Type-safe JavaScript for better development experience
