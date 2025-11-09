@@ -81,7 +81,7 @@ Root Cause:
 Who is the problem for: 
 National labs, aerospace/energy primes, pharma, university labs between funding cycles, any org with long project half-lives.
 
- 
+
 5. AI forgetfulness (for solving problem 4): AI cannot memorize all the stuff if the conversation continues too long. It cannot memorize what I have done before. 
 
 	Root Cause:
@@ -118,9 +118,13 @@ Who is the problem for:
 Any team producing reports, theses, procedures, logbooks, and papers at scale.
 
 
+ADDITIONAL ATTENTION:
+1. The Customers we are serving do not want upload to internet. 
+National labs, industral labs like Boeing, General Atomics, they are very wary of security breaches. 
+Experts do not want their stuff to be online or breach-able.
+So these recordings has to be offline.  
+Local computer, local trusted server could be fine. 
 
-- We see all of the ""
-- We need some way of verifying 
-=======
+
 - We need some way of verifying local work done is correct/80% of scientific data is lost and useless.
 >>>>>>> f8123669467c77d83da9656000512219bcda4289
