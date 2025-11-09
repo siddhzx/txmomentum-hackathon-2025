@@ -34,12 +34,36 @@ export function SupabaseAuthProvider({
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
-    // Get initial session
-    supabase.auth.getSession().then(({ data: { session } }) => {
+    // Handle OAuth callback immediately if tokens are in URL
+    const handleAuthCallback = async () => {
+      if (window.location.hash.includes('access_token')) {
+        console.log('Processing OAuth callback...')
+        try {
+          const { data, error } = await supabase.auth.getSession()
+          if (error) {
+            console.error('Error getting session:', error)
+          } else if (data.session) {
+            console.log('Session found:', data.session.user?.email)
+            setUser(data.session.user)
+            setIsAuthenticated(true)
+            // Clean URL
+            window.history.replaceState({}, document.title, window.location.pathname)
+          }
+        } catch (err) {
+          console.error('Auth callback error:', err)
+        }
+        setIsLoading(false)
+        return
+      }
+
+      // Get initial session
+      const { data: { session } } = await supabase.auth.getSession()
       setUser(session?.user ?? null)
       setIsAuthenticated(!!session?.user)
       setIsLoading(false)
-    })
+    }
+
+    handleAuthCallback()
 
     // Listen for auth changes
     const {
