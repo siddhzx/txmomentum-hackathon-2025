@@ -13,6 +13,11 @@ References:
 1. CVPR 2025
    1. https://vgg-t.github.io/
    2. https://github.com/facebookresearch/vggt
+https://arxiv.org/pdf/1803.10122
+
+Simulation Sources:
+1. https://github.com/google-deepmind/dm_control.git
+2. https://github.com/fbpic/fbpic 
 
 
 Noah Philip 
