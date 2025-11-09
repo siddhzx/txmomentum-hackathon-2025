@@ -1,56 +1,6 @@
 # txmomentum-hackathon-2025
 Physics Inspired World Models for Smart Security Applications.
 
-⏺ Technologies We Used:
-
-  Frontend & UI
-
-  - React 18 - Modern component-based UI framework
-  - TypeScript - Type-safe JavaScript for better development experience
-  - TanStack Router - Type-safe routing for React applications
-  - Vite - Lightning-fast build tool and dev server
-  - Tailwind CSS - Utility-first CSS framework for rapid styling
-  - Lucide React - Beautiful icon library for UI components
-
-  Backend & Database
-
-  - Supabase - Backend-as-a-Service for authentication and storage
-  - PostgreSQL - Relational database (via Supabase)
-  - Supabase Storage - Cloud storage for media files
-  - Google OAuth - Authentication provider integration
-
-  3D Reconstruction & AI
-
-  - VGGT (Visual Geometry Grounded Transformer) - Meta AI's breakthrough 3D reconstruction model
-  - PyTorch - Deep learning framework for VGGT model
-  - Python - Backend language for AI model serving
-  - Flask - Lightweight web framework for API server
-  - NumPy - Scientific computing for data processing
-  - Viser - Interactive 3D visualization library
-
-  Real-Time Processing
-
-  - WebRTC - Real-time camera capture APIs
-  - Canvas API - Frame processing and image manipulation
-  - WebSockets - Real-time communication for live updates
-  - Async/Await - Modern JavaScript for concurrent processing
-
-  Development & Deployment
-
-  - Git - Version control system
-  - GitHub - Code repository hosting
-  - Vercel - Deployment platform for frontend
-  - ESLint - Code linting and quality checks
-  - Prettier - Code formatting
-  - Node.js - JavaScript runtime environment
-
-  Computer Vision & 3D Graphics
-
-  - DINOv2 - Vision transformer backbone
-  - COLMAP - Structure-from-Motion pipeline integration
-  - Gaussian Splatting - Neural radiance field rendering
-  - Camera Calibration - Intrinsic/extrinsic matrix computation
-
 # Ontology, by hzx.ai — Project Brief
 ## Real-Time 3D Reconstruction with VGGT
 
@@ -107,3 +57,53 @@ Physics Inspired World Models for Smart Security Applications.
 ---
 
 **Real-time 3D reconstruction is no longer science fiction—it's production reality.**
+
+
+
+Technologies We Used:
+  Frontend & UI
+  - React 18 - Modern component-based UI framework
+  - TypeScript - Type-safe JavaScript for better development experience
+  - TanStack Router - Type-safe routing for React applications
+  - Vite - Lightning-fast build tool and dev server
+  - Tailwind CSS - Utility-first CSS framework for rapid styling
+  - Lucide React - Beautiful icon library for UI components
+
+  Backend & Database
+
+  - Supabase - Backend-as-a-Service for authentication and storage
+  - PostgreSQL - Relational database (via Supabase)
+  - Supabase Storage - Cloud storage for media files
+  - Google OAuth - Authentication provider integration
+
+  3D Reconstruction & AI
+
+  - VGGT (Visual Geometry Grounded Transformer) - Meta AI's breakthrough 3D reconstruction model
+  - PyTorch - Deep learning framework for VGGT model
+  - Python - Backend language for AI model serving
+  - Flask - Lightweight web framework for API server
+  - NumPy - Scientific computing for data processing
+  - Viser - Interactive 3D visualization library
+
+  Real-Time Processing
+
+  - WebRTC - Real-time camera capture APIs
+  - Canvas API - Frame processing and image manipulation
+  - WebSockets - Real-time communication for live updates
+  - Async/Await - Modern JavaScript for concurrent processing
+
+  Development & Deployment
+
+  - Git - Version control system
+  - GitHub - Code repository hosting
+  - Vercel - Deployment platform for frontend
+  - ESLint - Code linting and quality checks
+  - Prettier - Code formatting
+  - Node.js - JavaScript runtime environment
+
+  Computer Vision & 3D Graphics
+
+  - DINOv2 - Vision transformer backbone
+  - COLMAP - Structure-from-Motion pipeline integration
+  - Gaussian Splatting - Neural radiance field rendering
+  - Camera Calibration - Intrinsic/extrinsic matrix computation
