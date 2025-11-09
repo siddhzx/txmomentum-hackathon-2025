@@ -18,13 +18,11 @@ import {
   ListItemIcon,
   ListItemText,
   Divider,
-  useTheme,
 } from '@mui/material'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const auth = useSupabaseAuth()
-  const theme = useTheme()
 
   return (
     <>
