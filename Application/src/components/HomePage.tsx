@@ -289,8 +289,8 @@ export default function HomePage() {
               lineHeight: '1.625',
               fontWeight: 300
             }}>
-              Advanced Visual Geometry Grounded Transformer technology for real-time 3D reconstruction.
-              Ontology enables breakthrough applications with production-ready deployment.
+              Physics Inspired World Models for Smart Security Applications. We build world environments that are domain extensible across denied encrypted environments like healthcare, defense, and education.
+              <b>Ontology enables breakthrough applications with production-ready deployment.</b> 
             </p>
             
             {!auth.isAuthenticated ? (
